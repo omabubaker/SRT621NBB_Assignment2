@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add</title>
+
+</head>
+<h2>Add a new Book</h2>
+<body>
+    <form class="add2" action="/Book/create" method="POST">
+        <label for="name">name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="author">Author name:</label><br>
+        <input type="text" id="author" name="author"><br><br>
+        <label for="amazon">Amazon Link:</label><br>
+        <input type="text" id="amazon" name="amazon"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+        <div class="links">
+            <a href="home">List of Books |</a>
+            <a href="addNewBook"> Add a book</a>
+            <a href="deleteABook">| Delete a book</a>
+        </div>
+</body>
+</html>

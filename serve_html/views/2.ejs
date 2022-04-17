@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/lab10">
+</head>
+<body>
+  <h2><%= data.name %></h2>
+  <table>
+    <tr><td><p>Author: <%= data.Author %></p></td></tr>
+    <tr><td><p><a href="<%= data.amazon %>"> Buy on amazon!</a></p></td></tr>
+  </table>
+  <div class="links">
+    <a href="/home">List of Books |</a>
+    <a href="/addNewBook"> Add a book</a>
+    <a href="/deleteABook">| Delete a book</a>
+  </div>
+</body>
+</html>
